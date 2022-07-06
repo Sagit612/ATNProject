@@ -1,5 +1,3 @@
-
-const { use } = require('passport');
 const pg_connection = require('./pg-config');
 async function getTable (user){
     const acc_query = {
